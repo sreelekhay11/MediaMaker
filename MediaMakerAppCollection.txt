@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "f1b8f63f-810b-4f06-8f00-d92b337fec2d",
+		"name": "MediaMakerCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25449324"
+	},
+	"item": [
+		{
+			"name": "MediaMakerAPI",
+			"item": [
+				{
+					"name": "Add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Number1\": \"0.77\",\r\n  \"Number2\": \"8\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7003/api/calculation/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7003",
+							"path": [
+								"api",
+								"calculation",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subtract",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Number1\": 8,\r\n  \"Number2\": 5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7003/api/calculation/subtract",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7003",
+							"path": [
+								"api",
+								"calculation",
+								"subtract"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Multiply",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Number1\": 1.33,\r\n  \"Number2\": 5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7003/api/calculation/multipy",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7003",
+							"path": [
+								"api",
+								"calculation",
+								"multipy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Divide",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"Number1\": 0.10,\r\n  \"Number2\": 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7003/api/calculation/division",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7003",
+							"path": [
+								"api",
+								"calculation",
+								"division"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
